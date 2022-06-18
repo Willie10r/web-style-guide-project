@@ -1,0 +1,13 @@
+@use '../utilities/' as var;
+
+
+.headline-primary {
+    color: var.$headline-prim;
+    margin-left: 10px;
+  }
+  
+  .headline-secondary {
+    font-weight: 300;
+    color: var.$headline-secon;
+  }
+  
