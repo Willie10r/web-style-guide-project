@@ -7,14 +7,12 @@
     .container {
       max-width: var.$mx-br-width;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include var.margin-l-r-auto;
     }
     
     .centered {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include var.margin-l-r-auto;
     }
     
     .row {
