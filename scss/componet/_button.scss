@@ -16,21 +16,41 @@
   
   .default {
     background-color: var.$lighter-blue;
+    &:hover {
+      background-color: lighten(var.$lighter-blue,10%)
+
+    }
   }
   
   .error {
     background-color: var.$pinkish;
+    &:hover {
+      background-color: lighten(var.$pinkish,10%)
+
+    }
   }
   
   .info {
     background-color: var.$purple;
+    &:hover {
+      background-color: lighten(var.$purple,10%)
+
+    }
   }
   
   .success {
     background-color: var.$green;
+    &:hover {
+      background-color: lighten( var.$green,10%)
+
+    }
   }
   
   .warning {
     background-color:  var.$light-orange;
+    &:hover {
+      background-color: lighten(var.$light-orange,10%)
+
+    }
   }
   
