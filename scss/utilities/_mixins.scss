@@ -10,3 +10,8 @@
     margin-right: auto;
 
 }
+
+@mixin martop-maxwid {
+    margin-top: 10px;
+    max-width: 100%; 
+}

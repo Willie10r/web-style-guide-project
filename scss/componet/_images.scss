@@ -6,16 +6,14 @@
 .img-avatar {
     display: block;
     @include var.margin-l-r-auto;
-    margin-top: 10px;
-    max-width: 100%; 
+    @include var.martop-maxwid;
     max-height: 100%;
   }
   
   .img-frame {
     display: block;
     @include var.margin-l-r-auto;
-    margin-top: 10px;
-    max-width: 100%;
+    @include var.martop-maxwid;
     padding: 13px;
     border: 1px solid var.$white;
   }
