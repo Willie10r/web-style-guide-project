@@ -17,9 +17,9 @@
     transition: 
       background-color .2s ease-in-out, 
       color .2s ease-in-out;
+      :hover {
+        color: var.$slight-red;
+        background-color: var.$teal-color;
+      }
   }
   
-  .nav-link:hover {
-    color: var.$slight-red;
-    background-color: var.$teal-color;
-  }
